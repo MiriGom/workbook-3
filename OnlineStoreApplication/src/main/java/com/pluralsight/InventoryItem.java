@@ -47,10 +47,10 @@ public class InventoryItem {
 
     @Override
     public String toString() {
-        return "skuNumber: " + skuNumber +
-                "\nproductName: " + productName +
-                "\nprice: $" + price +
-                "\ndepartment: " + department;
+        return "SKU: " + skuNumber +
+                "|  " + productName +
+                "|  price: $" + price +
+                "|  Department: " + department + "\n";
     }
 }
 
